@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 IsIsogram", "isiso\isiso
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 Explode String", "02 Explode String\02 Explode String.vcxproj", "{F825D419-359D-4AF0-9A02-3C75586BD440}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03RpnCalculator", "03RpnCalculator\03RpnCalculator.vcxproj", "{25D30974-62D7-4FAB-BF16-1B3983867CEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{F825D419-359D-4AF0-9A02-3C75586BD440}.Release|x64.Build.0 = Release|x64
 		{F825D419-359D-4AF0-9A02-3C75586BD440}.Release|x86.ActiveCfg = Release|Win32
 		{F825D419-359D-4AF0-9A02-3C75586BD440}.Release|x86.Build.0 = Release|Win32
+		{25D30974-62D7-4FAB-BF16-1B3983867CEA}.Debug|x64.ActiveCfg = Debug|x64
+		{25D30974-62D7-4FAB-BF16-1B3983867CEA}.Debug|x64.Build.0 = Debug|x64
+		{25D30974-62D7-4FAB-BF16-1B3983867CEA}.Debug|x86.ActiveCfg = Debug|Win32
+		{25D30974-62D7-4FAB-BF16-1B3983867CEA}.Debug|x86.Build.0 = Debug|Win32
+		{25D30974-62D7-4FAB-BF16-1B3983867CEA}.Release|x64.ActiveCfg = Release|x64
+		{25D30974-62D7-4FAB-BF16-1B3983867CEA}.Release|x64.Build.0 = Release|x64
+		{25D30974-62D7-4FAB-BF16-1B3983867CEA}.Release|x86.ActiveCfg = Release|Win32
+		{25D30974-62D7-4FAB-BF16-1B3983867CEA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
