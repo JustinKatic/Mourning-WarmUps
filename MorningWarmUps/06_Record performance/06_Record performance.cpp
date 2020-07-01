@@ -12,17 +12,20 @@ int DoSomeLongRunningThing()
 	return counter;
 }
 
+  
+
 int main(int argc, char** argv)
 {
-	auto startTime = std::chrono::steady_clock::now();
+	auto startTime = std::chrono::high_resolution_clock::now();
 	std::cout << "Hello World" << std::endl;
-	auto endTime = std::chrono::steady_clock::now();
+	auto endTime = std::chrono::high_resolution_clock::now();
 	std::chrono::duration<double> timeDiff = endTime - startTime;
 
+	
 
-	startTime = std::chrono::steady_clock::now();
+	startTime = std::chrono::high_resolution_clock::now();
 	DoSomeLongRunningThing();
-	endTime = std::chrono::steady_clock::now();
+	endTime = std::chrono::high_resolution_clock::now();
 	std::chrono::duration<double> timeDiff1 = endTime - startTime;
 
 	std::cout << "first function: "<< timeDiff.count() << std::endl;
